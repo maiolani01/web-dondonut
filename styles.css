@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Lato:wght@300;400;700;900&family=Roboto+Serif:opsz,wght@8..144,300;8..144,500;8..144,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #F8E9C4;
+    background-image: url(img/fondoGris.jpg);
+    z-index: -50;
+    height: 3000px;
+}
+.container{
+    max width: 1400px;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.logo1{
+    width: 200px;
+    cursor: pointer;
+    
+}
+
+header {
+    font-family: 'Changa One', monospace, sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    margin-right: 0px;
+}
+
+
+
+.nav_link {
+    display: flex;
+}
+
+.nav_link {
+    list-style: none;
+}
+
+.nav_link {
+    list-style: none;
+    margin: 10px;
+}
+
+.nav_link a {
+    color: #025159;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav_link a:hover {
+    padding: 5px 10px;
+    background: #003049;
+    color: #eae2b7;
+    border-radius: 13px;
+    transition: .5s;
+}
+
+.about {
+    width: 900px;
+    display: flex;
+    margin: 150px auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.text_about {
+    justify-content: center;
+    z-index: 1;
+}
+.text_about p {
+    color: #025159; 
+    font-family: 'Changa One', monospace, sans-serif;
+    font-weight: 500;
+    font-size: 120px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+    z-index: 1;
+}
+
+.button_about {
+    margin: 50px auto;
+}
+
+.button1{
+    display:inline-block;
+    background-color:#F3E3C2;
+    padding:0.1em 0.2em;
+    border:0.1em solid #d62828;
+    margin:0 0.3em 0.3em 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 30px;
+    color:#d62828;
+    text-align:center;
+    transition: all 0.2s;
+    font-family: 'Changa One', monospace, sans-serif;
+    width: 200px;
+    height: 90px;
+    line-height: 5px;
+    }
+
+    .button1:hover{
+    color:#F1E9BB;
+    background-color:#d62828;
+    font-family: 'Changa One', monospace, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    }
+
+    .dona_pllx1 {
+        padding: 2px;
+        position:fixed;
+        float: right;
+        display: none;
+        z-index: 3;
+        height: 500px;
+    }
+
+    .dona_pllx2 {
+        padding: 2px;
+        position: fixed;
+        float: right;
+        z-index: 4;
+        height: 500px;
+    }
+
+    .dona_pllx3 {
+        padding: 2px;
+        position: fixed;
+        float: right;
+        z-index: 0;
+        height: 500px;
+    }
+
+
+
+.title_section2 {
+    text-align: center;
+    font-family: 'Changa One', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #025159;
+    text-decoration: none;
+}
+
+.text_section2 {
+    width: 500px;
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+    line-height: 28px;
+    font-size: 21px;
+    margin: 20px auto;
+}
+
+.boton_section2 button {
+    margin-left: 830px;
+    margin-top: 50px;
+}
+
+.button1{
+    display:inline-block;
+    background-color:#F3E3C2;
+    padding:0.1em 0.2em;
+    border:0.1em solid #d62828;
+    margin:0 0.3em 0.3em 0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    font-size: 30px;
+    color:#d62828;
+    text-align:center;
+    transition: all 0.2s;
+    font-family: 'Changa One', monospace, sans-serif;
+    width: 200px;
+    height: 90px;
+    line-height: 25px;
+    }
+
+    .button1:hover{
+    color:#F1E9BB;
+    background-color:#d62828;
+    font-family: 'Changa One', monospace, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    }
+
+.cards{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 90px 440px;
+    text-align: center;
+}
+
+.title_card {
+    font-family: 'Changa One', monospace, sans-serif;
+    font-size: 30px;
+    margin-top: 10px auto;
+    width: 200px;
+    text-align: center;
+}
+
+.card1 p, .card2 p, .card3 p {
+    margin: 0 auto;
+    z-index: 30;
+    cursor: pointer;
+    color: #025159;
+}
+
+.card3 p:hover {
+    color: #d62828;
+    transition: all .3s;
+}
+
+.card2 p:hover {
+    color: #d62828;
+    transition: all .3s;
+}
+
+.card1 p:hover {
+    color: #d62828;
+    transition: all .3s;
+}
+
+
+
+
+.option_card {
+    font-family: 'Changa One', monospace, sans-serif;
+}
+
+.flex_container1 {
+    display: flex;
+    width: 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-size: 20px;
+    gap: 5px;
+}
+
+#align_texto {
+    margin-top: 50px;
+}
+
+.flex_container1 i {
+    color: #d62828;
+    font-size: 25px;
+}
+
+.fa-angle-right {
+    color: #025159;
+    margin-top: 150px;
+    margin-left: 60px;
+    font-size: 80px;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.fa-chevron-left {
+    color: #025159;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -130px;
+    font-size: 80px;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.3s;
+}
+
+.fa-angle-right:hover {
+    color:#d62828;
+}
+
+.fa-chevron-left:hover {
+    color:#d62828;
+}
+
+.fa-heart:hover {
+
+}
+
+.option_card:hover {
+    color: #d62828;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.section22 {
+    margin-left: 180px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    
+}
+
+.docena111 {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    width: 80%;
+}
+
+
+
+
+.titulo_docena {
+    font-size: 50px;
+    color: #025159;
+    font-family: 'Changa One', monospace, sans-serif;
+    z-index: 10;
+}
+
+.docena {
+    width: 60%;
+}
+
+.parrafo_docena{
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.docena button {
+margin-left: 150px;
+}
+
+
+.packaging_donut img {
+    margin-top: -100px;
+    width: 115%;
+}
+
+.mapa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.direccion_titulo {
+    color: #025159;
+    font-size: 50px;
+    font-family: 'Changa One', monospace, sans-serif;
+}
+
+.direccion_texto {
+    margin-left: 50px;
+}
+
+.direccion_info {scroll-snap-align: ;
+    padding-top: 75px;
+    margin-right: 190px;
+}
+
+.direccion_info>ul>li{
+    list-style: none;
+    font-family: 'Roboto Serif';
+}
+
+.direccion_link {
+    display: flex;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 25px;
+    gap: 20px;
+    align-items: center;
+}
+
+.direccion_info_1 {
+    margin-left: 5px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: 700;
+}
+
+.direccion_info_1:hover {
+    color: #d62828;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+
+.direccion_info>ul>li>a>i{
+    color:#d62828;
+}
+
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 150px 0;
+    width: 50%;
+}
+
+.L-pie>img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.M-pie>ul>li {
+    font-family: 'Roboto Serif', serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #025159;
+    cursor: pointer;
+}
+
+.R-pie>ul>li {
+    font-family: 'Roboto Serif', serif;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #025159;
+    cursor: pointer;
+}
+
+.M-pie p {
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    color: #d62828;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.R-pie p {
+    font-family: 'Roboto Serif', serif;
+    font-size: 20px;
+    color: #d62828;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
